@@ -1,0 +1,6 @@
+bin
+obj
+_ReSharper*
+*.DotSettings.user
+*.suo
+*.csproj.user
