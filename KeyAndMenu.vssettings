@@ -1,19 +1,7 @@
 <UserSettings>
 	<ApplicationIdentity version="11.0"/>
 	<ToolsOptions>
-		<ToolsOptionsCategory name="Environment" RegisteredName="Environment">
-			<ToolsOptionsSubCategory name="General" RegisteredName="General" PackageName="Visual Studio Environment Package">
-				<PropertyValue name="AnimationSpeed">5</PropertyValue>
-				<PropertyValue name="RichClientExperienceOptions">65535</PropertyValue>
-				<PropertyValue name="WindowMenuContainsNItems">10</PropertyValue>
-				<PropertyValue name="CloseButtonActiveTabOnly">true</PropertyValue>
-				<PropertyValue name="AutoAdjustExperience">true</PropertyValue>
-				<PropertyValue name="Animations">true</PropertyValue>
-				<PropertyValue name="AutohidePinActiveTabOnly">false</PropertyValue>
-				<PropertyValue name="ShowStatusBar">true</PropertyValue>
-				<PropertyValue name="MRUListContainsNItems">10</PropertyValue>
-			</ToolsOptionsSubCategory>
-		</ToolsOptionsCategory>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
 	</ToolsOptions>
 	<Category name="Environment_Group" RegisteredName="Environment_Group">
 		<Category name="Environment_CommandBars" Category="{B9D9C123-B500-4202-B887-57C829CBD08F}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_CommandBars" PackageName="Visual Studio Environment Package">
@@ -248,8 +236,6 @@
 					<add Cmd="{5EFC7975-14BC-11CF-9B2B-00AA00573819}:00000151" CmdPri="7f000001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000010a" GroupPri="fe000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000000"/>
 					<add Cmd="{5EFC7975-14BC-11CF-9B2B-00AA00573819}:000002ac" CmdPri="be800001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000010a" GroupPri="fe000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000000"/>
 					<add Cmd="{1496A755-94DE-11D0-8C3F-00C04FC2AAE2}:000007c6" CmdPri="de400001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:0000010a" GroupPri="fe000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000000"/>
-					<add Cmd="{47F03277-5055-4922-899C-0F7F30D26BF1}:000005dd" CmdPri="01028001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000177" GroupPri="0b000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000001"/>
-					<modify Cmd="{47F03277-5055-4922-899C-0F7F30D26BF1}:000005dd" CmdPri="01028001" Group="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000177" GroupPri="0b000000" Menu="{D309F791-903F-11D0-9EFC-00A0C911004F}:00000001" Icon="{4CD3A27C-AAA0-4EE5-ABC8-32B1D15839E2}:00000001"/>
 				</UserCustomizations>
 			</CommandBars>
 			<PropertyValue name="ShowLargeButtons">false</PropertyValue>
@@ -346,6 +332,30 @@
 					<RemoveShortcut Command="Tools.GoToCommandLine" Scope="Global">Ctrl+\</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_FindUsages" Scope="Global">Ctrl+/</RemoveShortcut>
 					<RemoveShortcut Command="View.CallHierarchy" Scope="Global">Ctrl+Alt+K</RemoveShortcut>
+					<RemoveShortcut Command="File.Print" Scope="Global">Ctrl+P</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.Rename" Scope="Global">Ctrl+R, Ctrl+R</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.ExtractMethod" Scope="Global">Ctrl+R, Ctrl+M</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.ExtractInterface" Scope="Global">Ctrl+R, Ctrl+I</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.RemoveParameters" Scope="Global">Ctrl+R, Ctrl+V</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.ReorderParameters" Scope="Global">Ctrl+R, Ctrl+O</RemoveShortcut>
+					<RemoveShortcut Command="UnitTest.RunAllTests" Scope="Global">Ctrl+R, A</RemoveShortcut>
+					<RemoveShortcut Command="UnitTest.RepeatLastRun" Scope="Global">Ctrl+R, L</RemoveShortcut>
+					<RemoveShortcut Command="UnitTest.RunAllTestsInContext" Scope="Global">Ctrl+R, T</RemoveShortcut>
+					<RemoveShortcut Command="LoadTest.JumpToCounterPane" Scope="Global">Ctrl+R, Q</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewWhiteSpace" Scope="Text Editor">Ctrl+R, Ctrl+W</RemoveShortcut>
+					<RemoveShortcut Command="View.Backward" Scope="Global">Alt+Left Arrow</RemoveShortcut>
+					<RemoveShortcut Command="View.Forward" Scope="Global">Alt+Right Arrow</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegisterEquals" Scope="Global">Alt+C, Alt+=</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegisterEquals" Scope="Global">Alt+C, =</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegisterEquals" Scope="Global">Alt+V, Alt+=</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegisterEquals" Scope="Global">Alt+V, =</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegister8" Scope="Global">Alt+C, Alt+8</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegister8" Scope="Global">Alt+C, 8</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegister8" Scope="Global">Alt+V, Alt+8</RemoveShortcut>
+					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegister8" Scope="Global">Alt+V, 8</RemoveShortcut>
+					<RemoveShortcut Command="Edit.CompleteWord" Scope="Text Editor">Alt+Right Arrow</RemoveShortcut>
+					<RemoveShortcut Command="EditorContextMenus.CodeWindow.NavigateTo.ReSharper_GoToBaseFile" Scope="Global">Alt+B</RemoveShortcut>
 					<Shortcut Command="ReSharper_QuickFix" Scope="Global">Alt+Enter</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Global">Ctrl+,</Shortcut>
 					<Shortcut Command="View.NavigateBackward" Scope="Global">Ctrl+Alt+Left Arrow</Shortcut>
@@ -367,25 +377,11 @@
 					<Shortcut Command="ReSharper_SilentCleanupCode" Scope="Global">Ctrl+Alt+K</Shortcut>
 					<Shortcut Command="Edit.IncrementalSearch" Scope="Global">Ctrl+I</Shortcut>
 					<Shortcut Command="Edit.ReverseIncrementalSearch" Scope="Global">Ctrl+Shift+I</Shortcut>
-					<RemoveShortcut Command="File.Print" Scope="Global">Ctrl+P</RemoveShortcut>
 					<Shortcut Command="ReSharper.ReSharper_ParameterInfo_Show" Scope="Global">Ctrl+P</Shortcut>
 					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="Global">Ctrl+1</Shortcut>
 					<Shortcut Command="View.FindResults1" Scope="Global">Alt+1</Shortcut>
 					<Shortcut Command="View.FindResults2" Scope="Global">Ctrl+2</Shortcut>
-					<RemoveShortcut Command="Refactor.Rename" Scope="Global">Ctrl+R, Ctrl+R</RemoveShortcut>
-					<RemoveShortcut Command="Refactor.ExtractMethod" Scope="Global">Ctrl+R, Ctrl+M</RemoveShortcut>
-					<RemoveShortcut Command="Refactor.EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</RemoveShortcut>
-					<RemoveShortcut Command="Refactor.ExtractInterface" Scope="Global">Ctrl+R, Ctrl+I</RemoveShortcut>
-					<RemoveShortcut Command="Refactor.RemoveParameters" Scope="Global">Ctrl+R, Ctrl+V</RemoveShortcut>
-					<RemoveShortcut Command="Refactor.ReorderParameters" Scope="Global">Ctrl+R, Ctrl+O</RemoveShortcut>
-					<RemoveShortcut Command="UnitTest.RunAllTests" Scope="Global">Ctrl+R, A</RemoveShortcut>
-					<RemoveShortcut Command="UnitTest.RepeatLastRun" Scope="Global">Ctrl+R, L</RemoveShortcut>
-					<RemoveShortcut Command="UnitTest.RunAllTestsInContext" Scope="Global">Ctrl+R, T</RemoveShortcut>
-					<RemoveShortcut Command="LoadTest.JumpToCounterPane" Scope="Global">Ctrl+R, Q</RemoveShortcut>
 					<Shortcut Command="View.BookmarkWindow" Scope="Global">Ctrl+R</Shortcut>
-					<RemoveShortcut Command="Edit.ViewWhiteSpace" Scope="Text Editor">Ctrl+R, Ctrl+W</RemoveShortcut>
-					<RemoveShortcut Command="View.Backward" Scope="Global">Alt+Left Arrow</RemoveShortcut>
-					<RemoveShortcut Command="View.Forward" Scope="Global">Alt+Right Arrow</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterBackQuote" Scope="Global">Alt+C, Alt+`</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterBackQuote" Scope="Global">Alt+C, `</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterBackQuote" Scope="Global">Alt+V, Alt+`</Shortcut>
@@ -562,21 +558,13 @@
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterForwardSlash" Scope="Global">Alt+C, /</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterForwardSlash" Scope="Global">Alt+V, Alt+/</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterForwardSlash" Scope="Global">Alt+V, /</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegisterEquals" Scope="Global">Alt+C, Alt+=</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterAdd" Scope="Global">Alt+C, Alt+=</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegisterEquals" Scope="Global">Alt+C, =</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterAdd" Scope="Global">Alt+C, =</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegisterEquals" Scope="Global">Alt+V, Alt+=</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterAdd" Scope="Global">Alt+V, Alt+=</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegisterEquals" Scope="Global">Alt+V, =</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterAdd" Scope="Global">Alt+V, =</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegister8" Scope="Global">Alt+C, Alt+8</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterMultiply" Scope="Global">Alt+C, Alt+8</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.CopyRegister8" Scope="Global">Alt+C, 8</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.CopyRegisterMultiply" Scope="Global">Alt+C, 8</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegister8" Scope="Global">Alt+V, Alt+8</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterMultiply" Scope="Global">Alt+V, Alt+8</Shortcut>
-					<RemoveShortcut Command="scottwis.VisualStudio.PasteRegister8" Scope="Global">Alt+V, 8</RemoveShortcut>
 					<Shortcut Command="scottwis.VisualStudio.PasteRegisterMultiply" Scope="Global">Alt+V, 8</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.NavigateErrors" Scope="Global">Alt+N, Alt+E</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.NavigateErrors" Scope="Global">Alt+N, E</Shortcut>
@@ -594,9 +582,11 @@
 					<Shortcut Command="scottwis.VisualStudio.NavigateTasks" Scope="Global">Alt+N, T</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.GotoPrevious" Scope="Global">Alt+Left Arrow</Shortcut>
 					<Shortcut Command="scottwis.VisualStudio.GotoNext" Scope="Global">Alt+Right Arrow</Shortcut>
-					<RemoveShortcut Command="Edit.CompleteWord" Scope="Text Editor">Alt+Right Arrow</RemoveShortcut>
-					<RemoveShortcut Command="EditorContextMenus.CodeWindow.NavigateTo.ReSharper_GoToBaseFile" Scope="Global">Alt+B</RemoveShortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Global">Alt+B</Shortcut>
+					<Shortcut Command="View.TaskList" Scope="Global">Ctrl+T</Shortcut>
+					<RemoveShortcut Command="Edit.CharTranspose" Scope="Text Editor">Ctrl+T</RemoveShortcut>
+					<Shortcut Command="View.ErrorList" Scope="Global">Ctrl+E</Shortcut>
+					<RemoveShortcut Command="Edit.ToggleWordWrap" Scope="Text Editor">Ctrl+E, Ctrl+W</RemoveShortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>

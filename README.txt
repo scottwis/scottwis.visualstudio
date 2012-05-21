@@ -42,7 +42,7 @@
     
     These navigate through the last "editor position". Where as "Alt+Left"
     will take you to the last "Compiler Error Location" (or other list
-    location depending on the current navigation mode", "Ctrl+Alt+Left" will
+    location depending on the current navigation mode"), "Ctrl+Alt+Left" will
     take you to the previous position your cursor was at, independent of your
     position within any navigation lists.
     
@@ -78,9 +78,6 @@
     different places you can navigate to with respect to the symbol under the
     cursor. It's basically a more powerful version of "Goto Definition".
     
-    7. Ctrl+D
-    
-    ThisIt's basically a more powerful version of "Goto Definition".
     
     7. Ctrl+D
     
@@ -120,3 +117,15 @@
     This is bound to the resharper "find usages" command. It finds references
     to the symbol under the cursor.  You can navigate between the results by
     hitting Alt+N, S and then using Alt+Left and Alt+Right.
+
+    14. Ctrl+P
+
+    This is bound to the resharper "show parameter info" command. It allows you
+    to view intellisence parameter info for the current argument you are 
+    specifying at a method call site.
+
+    14. Ctrl+T, Ctrl+R, Ctrl+E
+
+    Thise are bound to "view task list", "view book marks", and 
+    "view error list" commands.
+
