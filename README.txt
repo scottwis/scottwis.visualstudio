@@ -126,6 +126,12 @@
 
     14. Ctrl+T, Ctrl+R, Ctrl+E
 
-    Thise are bound to "view task list", "view book marks", and 
+    These are bound to "view task list", "view book marks", and 
     "view error list" commands.
+
+    15. Alt+Up, Alt+Down
+
+    These are bound to the resharper "goto previous method" / "goto next method" commands.
+    They allow you to navigate quickly between methods in a file.
+
 
