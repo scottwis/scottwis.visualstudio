@@ -52,20 +52,14 @@
     combo and inserts a ">" as the first character, so that you can run any
     visual studio command.
     
-    3. Ctrl+O
-    
-    This binds to the resharper "Open file command". It works similarly to the
-    "Open" comamnd in Source Insight when the file list window is not
-    docked. It shows a simple popup that you can use to "word wheel" to a file
-    in the current solution you wish to open.
-    
-    4. F7, F8
-    
-    These bind to the resharper "Goto Symbol" and "Goto File Member" commands.
-    They work similarly to the corresponding commands in Source Insight. They
-    show simple popups that can be used to "word wheel" to any symbol in the
-    current solution (or referenced assemblies) or any symbol in the current
-    file.
+    3/4. Ctrl+O, F7, F8
+
+    Currently Ctrl+O and F7 both bind to resharper's "Goto Everything" command.
+    They used to bind to the "Open file Command" and "Goto Symbol" commands,
+    but sense "Goto Everything" encapsulates both of them now, I used that instead.    
+
+    F8 binds to "Goto File Member", which I use in place of F7 when I know the thing
+    I'm looking for in defined within the current file.    
     
     5. Alt+Enter
     
@@ -108,7 +102,7 @@
     
     These navigate between the resharper "highlights" in the current file.
     
-    12. Alt+K,Alt+K
+    12.Ctrl+Alt+K
     
     This code runs the resharper "cleanup code silently command".
     
